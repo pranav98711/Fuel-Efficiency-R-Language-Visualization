@@ -1,4 +1,4 @@
-# 🚗 What Can You Build With R? How About a Car Race! 🚗🏁
+# 🚗 What Can You Build With R? How About a Car Race! 🏁
 
 I made this animated race using R and EPA data to show which car brands are the most fuel-efficient on the highway. It's a fun way to visualize just how far you could drive on a single gallon of gas — and spoiler: some brands really go the distance.
 
