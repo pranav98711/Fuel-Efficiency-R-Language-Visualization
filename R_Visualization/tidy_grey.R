@@ -1,8 +1,3 @@
-##----------------------------------------------------------------------------------------------------------##
-##  Cedric Scherer (cedricphilippscherer@gmail.com)                                                         ##
-##  Function for a custom ggplot theme                                                                      ##
-##  2017-05-27                                                                                              ##
-##----------------------------------------------------------------------------------------------------------##
 
 library(ggplot2)
 
@@ -91,3 +86,5 @@ theme_custom <- function (base_size = 12, base_family = base)
 }
 
 theme_set(theme_custom())
+
+## https://github.com/z3tt/TidyTuesday/blob/main/R/2019_42_BigCars.Rmd
