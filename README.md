@@ -51,8 +51,7 @@ Here's a static plot I added that shows how much you can save by going electric.
 ## 📝 Notes
 
 - Car icon is from [mynamepong on Flaticon](https://www.flaticon.com/authors/mynamepong)  
-- Fonts used: *Montserrat* and *Racing Sans One*  
-- Inspired by the amazing work of [Cédric Scherer](https://twitter.com/cedricscherer)
+- Inspired by the amazing work of Cédric S
 
 
 
