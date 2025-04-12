@@ -1,21 +1,23 @@
 # 🚗 How Far Can You Go With 1 Gallon of Gas?
 
-I made this little animated race using EPA data to see which car brands are the most fuel-efficient on the highway. It's a fun way to visualize just how far you could go on a single gallon of gas, and spoiler: **some brands really go the distance**.
+I made this animated race using R and EPA data to show which car brands are the most fuel-efficient on the highway. It's a fun way to visualize just how far you could drive on a single gallon of gas — and spoiler: some brands really go the distance.
 
-The animation shows the top 20 most efficient brands based on median MPG and MPGe since 1984 — think of it like a racetrack where cars move forward based on their fuel efficiency.
+The animation shows the top 20 most efficient brands based on median MPG and MPGe since 1984. Think of it like a racetrack: the more efficient the brand, the farther it goes!
 
 ![2019_42_BigCars_Highway](https://github.com/user-attachments/assets/6ed154db-28b1-4821-ae84-8ac5ea3ece57)
 
 
 ## 💡 Why I Built This
 
-I came across this dataset from the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) project (week 42, 2019) and thought: “This needs an animation.” The idea was to mix something useful (comparing fuel efficiency) with something visually fun (a countdown and car icons driving off).
+I found this dataset from the #TidyTuesday project (week 42, 2019) and immediately thought: “This would look great as an animation.”
 
-I also added a second chart that looks at **how much money you could save** driving electric — based on the average 5-year savings compared to a regular gas car.
+I wanted to make something that mixes useful info (fuel efficiency) with visual storytelling — like a countdown and little cars racing forward based on real numbers.
+
+I also added a chart showing how much money you could save by switching to electric, using average 5-year savings from EPA data.
 
 
 
-## 🔧 How It Works
+## 🔧 Built With R
 
 This is an R project using:
 
@@ -25,7 +27,7 @@ This is an R project using:
 - `tidyverse` for data wrangling  
 - A custom `tidy_grey` ggplot2 theme for a clean, dark aesthetic  
 
-The animation runs on a timeline (like a race), and I used the `transition_reveal()` function to animate the cars as they move across the screen.
+The race animation uses transition_reveal() to animate each brand over time, based on their median highway MPG. I also included a countdown at the start to make it feel more like an actual race. 🏁
 
 
 
