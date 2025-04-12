@@ -6,6 +6,12 @@ The animation shows the top 20 most efficient brands based on median MPG and MPG
 
 ![2019_42_BigCars_Highway](https://github.com/user-attachments/assets/6ed154db-28b1-4821-ae84-8ac5ea3ece57)
 
+How It Works:
+
+- Brands are ranked by their median highway MPG/MPGe across all models since 1984.
+- The race starts with a countdown ("3... 2... 1... START!").
+- Cars move along the track as the animation progresses, stopping at the point that matches their fuel efficiency.
+- Each car is marked with a small car icon for a fun visual effect.
 
 ## 💡 Why I Built This
 
@@ -44,11 +50,19 @@ All data comes from the [EPA’s fuel economy dataset](https://www.fueleconomy.g
 
 ## 🔋 Bonus: Going Electric Saves 💸
 
-Here's a static plot I added that shows how much you can save by going electric. It’s based on average estimated 5-year savings from the EPA data:
+
+This chart shows how much money you can save over 5 years by driving an electric car instead of a gas-powered one.
+
+Each bar represents a car brand, and the length of the bar shows the average savings (in USD) for that brand’s electric vehicles — based on EPA data.
 
 ![2019_42_BigCars_Savings](https://github.com/user-attachments/assets/f677cfa5-0bdf-476c-8066-023bb1eb9f78)
 
+What You’re Seeing:
 
+- Brands like Scion, Volkswagen, and Fiat offer some of the highest average savings — over $4,000!
+- On the other end, MINI and GMC electric models show smaller savings.
+- The little car icons mark the end of each brand’s savings bar, adding a playful touch.
+- The data is from the EPA, and savings are estimated over a 5-year period, comparing each electric car to the average gas car.
 
 ## 📝 Notes
 
